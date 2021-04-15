@@ -40,7 +40,7 @@
     "start:dev": "yarn start:dev:docker && yarn start:dev:server",
     "test": "yarn ts-node src/dockest",
     "snyk-protect": "snyk protect",
-    "prepare": "yarn run snyk-protect",
+    "prepare": "yarn build",
     "release": "release-it"
   },
   "dependencies": {
